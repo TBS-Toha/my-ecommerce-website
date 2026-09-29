@@ -228,6 +228,20 @@ function registerAdminRoutes(app, database, adminOnly, requireUser, cleanupManag
     response.json(rows.map((row) => ({ id: row.id, customer: row.full_name, productId: row.product_id, product: JSON.parse(row.product_data).name, orderId: row.order_id, rating: row.rating, review: row.review, status: row.status, createdAt: row.created_at })));
   });
 
+  app.get("/api/reviews", (_request, response) => {
+    const rows = database.prepare(`SELECT r.id,r.rating,r.review,r.created_at,u.full_name,p.data AS product_data
+      FROM reviews r JOIN users u ON u.id=r.user_id JOIN products p ON p.id=r.product_id
+      WHERE r.status='approved' ORDER BY r.created_at DESC LIMIT 4`).all();
+    response.json(rows.map((row) => ({
+      id: row.id,
+      customer: row.full_name,
+      product: JSON.parse(row.product_data).name,
+      rating: row.rating,
+      review: row.review,
+      createdAt: row.created_at
+    })));
+  });
+
   app.put("/api/admin/reviews/:id/status", adminOnly, (request, response) => {
     const status = String(request.body?.status || "");
     if (!["pending", "approved", "hidden"].includes(status)) throw new AdminError(400, "Choose a valid review status.");

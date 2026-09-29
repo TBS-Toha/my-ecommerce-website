@@ -200,6 +200,36 @@
     bindImageFallbacks(document);
   }
 
+  async function refreshCustomerReviews() {
+    const reviewGrid = document.getElementById("customer-reviews");
+    if (!reviewGrid) return;
+    try {
+      const response = await fetch("/api/reviews", { cache: "no-store" });
+      const reviews = await readJsonResponse(response, "Unable to load customer reviews.");
+      reviewGrid.innerHTML = reviews.length
+        ? reviews.map((review) => {
+          const customer = String(review.customer || "Customer");
+          const initials = customer.split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
+          const rating = Math.max(0, Math.min(5, Number(review.rating) || 0));
+          return `<article class="review-card">
+            <div class="review-top">
+              <span class="review-avatar" aria-hidden="true">${escapeHtml(initials || "?")}</span>
+              <div>
+                <h4>${escapeHtml(customer)}</h4>
+                <span>Verified Buyer</span>
+              </div>
+            </div>
+            <div class="stars" aria-label="Rating: ${rating} out of 5">${"★".repeat(rating)}${"☆".repeat(5 - rating)}</div>
+            <p>${escapeHtml(review.review)}</p>
+            <small class="review-product">Purchased: ${escapeHtml(review.product)}</small>
+          </article>`;
+        }).join("")
+        : '<p class="review-empty">No approved customer reviews yet.</p>';
+    } catch {
+      reviewGrid.innerHTML = '<p class="review-empty">Customer reviews are temporarily unavailable.</p>';
+    }
+  }
+
   function syncCategories(categories) {
     const categoryGrid = document.querySelector(".category-grid");
     for (const category of categories) categoryNames[category.id] = category.name;
@@ -294,6 +324,7 @@
   }
 
   const ready = refreshProducts();
+  refreshCustomerReviews();
 
   window.SmartMartStore = {
     getProducts: () => structuredClone(products),

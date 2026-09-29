@@ -1151,6 +1151,19 @@ details ul {
   object-fit: cover;
 }
 
+.review-avatar {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  flex: 0 0 54px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-weight: 700;
+}
+
 .review-top h4 {
   font-size: 1rem;
 }
@@ -1169,6 +1182,17 @@ details ul {
 .review-card p {
   color: var(--muted);
   line-height: 1.7;
+}
+
+.review-product {
+  display: block;
+  margin-top: 0.8rem;
+  color: var(--muted);
+}
+
+.review-empty {
+  grid-column: 1 / -1;
+  color: var(--muted);
 }
 
 .newsletter-inner {
