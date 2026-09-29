@@ -1,0 +1,22 @@
+{
+  "name": "tohas-mart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TOHA'S MART storefront and local product administration server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.7.0",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.0.2"
+  }
+}

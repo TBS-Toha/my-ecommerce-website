@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | TOHA'S MART</title>
+    <link rel="stylesheet" href="customer.css" />
+    <script src="checkout.js" defer></script>
+  </head>
+  <body>
+    <main class="customer-shell">
+      <header class="customer-topbar"><a class="customer-logo" href="/"><span>TOHA'S</span> MART</a><nav class="customer-nav"><a href="cart.html">Back to cart</a><a href="account.html">My account</a></nav></header>
+      <div class="customer-heading"><p>SECURE CHECKOUT</p><h1>Delivery and payment</h1><small>Cash on delivery</small></div>
+      <div class="customer-grid">
+        <section class="customer-panel"><h2>Delivery address</h2><div class="customer-list" id="checkout-addresses"></div><a class="customer-button secondary" href="account.html">Manage addresses</a></section>
+        <section class="customer-panel"><h2>Order summary</h2><div class="shop-items" id="checkout-items"></div><div id="checkout-summary"></div><form id="place-order-form" class="customer-form"><label>Payment method<select name="paymentMethod"><option value="cash-on-delivery">Cash on delivery</option></select></label><button class="customer-button" type="submit" id="place-order-button">Place order</button></form><p class="customer-status" id="checkout-status" role="status"></p></section>
+      </div>
+    </main>
+  </body>
+</html>

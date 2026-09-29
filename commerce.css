@@ -1,0 +1,59 @@
+.commerce-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commerce-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border: 2px solid #0b1020;
+  border-radius: 50%;
+  background: #ff9f43;
+  color: #111827;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.product-wishlist {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 50%;
+  background: rgba(9, 15, 25, .72);
+  color: #fff;
+  font-size: 20px;
+}
+
+.product-wishlist[aria-pressed="true"] { color: #ff8caa; }
+.product-wishlist:hover { border-color: #ff8caa; }
+.deal-add { margin-top: 14px; }
+
+.commerce-toast {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  max-width: min(360px, calc(100vw - 32px));
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 8px;
+  background: #111c2a;
+  color: #fff;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .35);
+}
+
+.commerce-toast[hidden] { display: none; }

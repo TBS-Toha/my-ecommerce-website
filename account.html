@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Account | TOHA'S MART</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="customer.css" />
+    <script src="account.js" defer></script>
+  </head>
+  <body>
+    <main class="customer-shell">
+      <header class="customer-topbar"><a class="customer-logo" href="/"><span>TOHA'S</span> MART</a><nav class="customer-nav"><a href="/">Store</a><a href="cart.html">Cart</a><a href="wishlist.html">Wishlist</a><button class="customer-button secondary" id="logout-button" type="button">Sign out</button></nav></header>
+      <div class="customer-heading"><p>MY ACCOUNT</p><h1>Welcome, <span id="account-name">shopper</span>.</h1><small id="account-created"></small></div>
+      <div class="customer-grid">
+        <section class="customer-panel"><h2>Profile</h2><form id="profile-form" class="customer-form"><label>Full name<input name="name" required /></label><label>Email<input name="email" type="email" readonly /></label><label>Phone<input name="phone" type="tel" required /></label><button class="customer-button" type="submit">Save profile</button></form><p class="customer-status" id="profile-status" role="status"></p></section>
+        <section class="customer-panel"><h2>Change password</h2><form id="password-form" class="customer-form"><label>Current password<input name="currentPassword" type="password" required autocomplete="current-password" /></label><label>New password<input name="password" type="password" required minlength="10" maxlength="128" autocomplete="new-password" /></label><label>Confirm new password<input name="confirmPassword" type="password" required minlength="10" maxlength="128" autocomplete="new-password" /></label><button class="customer-button" type="submit">Update password</button></form><p class="customer-status" id="password-status" role="status"></p></section>
+        <section class="customer-panel wide"><h2>My orders</h2><div class="customer-list" id="account-orders"></div></section>
+        <section class="customer-panel wide"><h2>Delivery addresses</h2><div class="customer-list" id="address-list"></div><form id="address-form" class="customer-form two-col"><input name="id" type="hidden" /><label>Full name<input name="fullName" required /></label><label>Phone<input name="phone" type="tel" required /></label><label class="full-row">Street address<textarea name="address" required></textarea></label><label>Area<input name="area" /></label><label>City<input name="city" required /></label><label>Postal code<input name="postalCode" /></label><label>Country<input name="country" value="Bangladesh" required /></label><label class="full-row"><span><input name="isDefault" type="checkbox" /> Set as default address</span></label><div class="customer-actions full-row"><button class="customer-button" id="address-submit" type="submit">Add address</button><button class="customer-button secondary" id="address-cancel" type="button" hidden>Cancel edit</button></div></form><p class="customer-status" id="address-status" role="status"></p></section>
+      </div>
+    </main>
+  </body>
+</html>

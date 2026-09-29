@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Smart Mart - premium smart products, watches, smartphones, sound boxes and headphones."
+    />
+    <title>TOHA'S MART | Smart Products. Smart Prices. Smart Lifestyle.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="commerce.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="navbar container">
+          <a href="#home" class="logo" aria-label="Smart Mart home">
+            TOHA'S <span>MART</span>
+          </a>
+
+          <div class="nav-links" aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#watch">Watches</a>
+            <a href="#smartphone">Smartphones</a>
+            <a href="#sound-box">Sound Box</a>
+            <a href="#headphone">Headphones</a>
+            <a href="#deals">Deals</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="icon-btn" id="search-open" aria-label="Search products" aria-haspopup="dialog" aria-controls="product-search">⌕</button>
+            <a class="icon-btn commerce-icon" id="wishlist-link" href="wishlist.html" aria-label="Wishlist">♡<span class="commerce-count" id="wishlist-count">0</span></a>
+            <a class="icon-btn commerce-icon" id="cart-link" href="cart.html" aria-label="Shopping cart">🛒<span class="commerce-count" id="cart-count">0</span></a>
+            <a class="account-btn" id="account-link" href="login.html">Account</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-bg hero-bg-a"></div>
+          <div class="hero-bg hero-bg-b"></div>
+
+          <div class="container hero-inner">
+            <div class="hero-copy slide-left">
+              <span class="eyebrow">SMART LIFESTYLE STORE</span>
+              <h1>Upgrade Your Lifestyle</h1>
+              <p>
+                Discover the latest watches, smartphones, sound systems and
+                headphones in one smart marketplace.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#categories" class="btn btn-primary">SHOP NOW</a>
+                <a href="#categories" class="btn btn-secondary">EXPLORE PRODUCTS</a>
+              </div>
+
+              <div class="mini-stats">
+                <div>
+                  <strong>500+</strong>
+                  <span>Products</span>
+                </div>
+                <div>
+                  <strong>2 Days</strong>
+                  <span>Fast Delivery</span>
+                </div>
+                <div>
+                  <strong>100%</strong>
+                  <span>Secure Shopping</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual slide-right">
+              <div class="floating-card card-one">500+ Products</div>
+              <div class="floating-card card-two">Fast Delivery</div>
+              <div class="floating-card card-three">Secure Shopping</div>
+
+              <div class="hero-device-wrap">
+                <div class="hero-glow"></div>
+                <img
+                  src="images/Home_image.jpg"
+                  alt="Premium electronic devices"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="marquee-wrap">
+          <div class="marquee-track">
+            <span>NEW ARRIVALS</span>
+            <span>SMART WATCHES</span>
+            <span>PREMIUM PHONES</span>
+            <span>BLUETOOTH SPEAKERS</span>
+            <span>NOISE CANCELLING HEADPHONES</span>
+            <span>SMART MART DEALS</span>
+            <span>NEW ARRIVALS</span>
+            <span>SMART WATCHES</span>
+            <span>PREMIUM PHONES</span>
+            <span>BLUETOOTH SPEAKERS</span>
+            <span>NOISE CANCELLING HEADPHONES</span>
+            <span>SMART MART DEALS</span>
+          </div>
+        </div>
+
+        <section class="categories container" id="categories">
+          <div class="section-heading">
+            <span class="eyebrow accent">SHOP BY CATEGORY</span>
+            <h2>Explore Premium Collections</h2>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card" data-api-category="watch">
+              <div class="category-image-wrap">
+                <img
+                  src="images/category-01.jpg"
+                  alt="Smart watch collection"
+                />
+              </div>
+              <div class="category-body">
+                <div class="category-title-row">
+                  <span class="category-tag">WATCH</span>
+                  <span class="category-count" data-category-count="watch">5 items</span>
+                </div>
+                <h3>Smart Watches</h3>
+                <p>Track fitness, stay connected and elevate your daily routine.</p>
+                <a href="#watch" class="text-link">Explore now</a>
+              </div>
+            </article>
+
+            <article class="category-card" data-api-category="smartphone">
+              <div class="category-image-wrap">
+                <img
+                  src="images/category-02.jpg"
+                  alt="Smartphone collection"
+                />
+              </div>
+              <div class="category-body">
+                <div class="category-title-row">
+                  <span class="category-tag">SMARTPHONE</span>
+                  <span class="category-count" data-category-count="smartphone">5 items</span>
+                </div>
+                <h3>Flagship Phones</h3>
+                <p>Power-packed performance and cinematic camera experiences.</p>
+                <a href="#smartphone" class="text-link">Explore now</a>
+              </div>
+            </article>
+
+            <article class="category-card" data-api-category="sound-box">
+              <div class="category-image-wrap">
+                <img
+                  src="images/category-03.jpg"
+                  alt="Sound box collection"
+                />
+              </div>
+              <div class="category-body">
+                <div class="category-title-row">
+                  <span class="category-tag">SOUND BOX</span>
+                  <span class="category-count" data-category-count="sound-box">5 items</span>
+                </div>
+                <h3>Portable Audio</h3>
+                <p>Big sound for parties, travel and home entertainment.</p>
+                <a href="#sound-box" class="text-link">Explore now</a>
+              </div>
+            </article>
+
+            <article class="category-card" data-api-category="headphone">
+              <div class="category-image-wrap">
+                <img
+                  src="images/category-04.jpg"
+                  alt="Headphone collection"
+                />
+              </div>
+              <div class="category-body">
+                <div class="category-title-row">
+                  <span class="category-tag">HEADPHONE</span>
+                  <span class="category-count" data-category-count="headphone">5 items</span>
+                </div>
+                <h3>Immersive Audio</h3>
+                <p>Premium comfort and deeper focus with wireless listening.</p>
+                <a href="#headphone" class="text-link">Explore now</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="product-section container" id="watch">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow accent">CATEGORY 01</span>
+              <h2>Watch Collection</h2>
+            </div>
+            <a href="#categories" class="text-link">Back to categories</a>
+          </div>
+
+          <div class="product-grid"></div>
+        </section>
+
+        <section class="product-section container" id="smartphone">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow accent">CATEGORY 02</span>
+              <h2>Smartphone Collection</h2>
+            </div>
+            <a href="#categories" class="text-link">Back to categories</a>
+          </div>
+
+          <div class="product-grid"></div>
+        </section>
+
+        <section class="product-section container" id="sound-box">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow accent">CATEGORY 03</span>
+              <h2>Sound Box Collection</h2>
+            </div>
+            <a href="#categories" class="text-link">Back to categories</a>
+          </div>
+
+          <div class="product-grid"></div>
+        </section>
+
+        <section class="product-section container" id="headphone">
+          <div class="section-heading split-heading">
+            <div>
+              <span class="eyebrow accent">CATEGORY 04</span>
+              <h2>Headphone Collection</h2>
+            </div>
+            <a href="#categories" class="text-link">Back to categories</a>
+          </div>
+
+          <div class="product-grid"></div>
+        </section>
+
+        <section class="deals container" id="deals">
+          <div class="section-heading">
+            <span class="eyebrow accent">🔥 TODAY'S DEALS</span>
+            <h2>Hot offers for smart shoppers</h2>
+          </div>
+
+          <div class="deal-grid"></div>
+        </section>
+
+        <section class="featured container" id="featured">
+          <div class="section-heading">
+            <span class="eyebrow accent">FEATURED PRODUCTS</span>
+            <h2>Premium picks for your smart life</h2>
+          </div>
+
+          <div class="featured-grid"></div>
+        </section>
+
+        <section class="features container">
+          <div class="section-heading">
+            <span class="eyebrow accent">WHY SHOP WITH US</span>
+            <h2>Smart service. Smart value.</h2>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-icon">🚚</div>
+              <h3>Fast Delivery</h3>
+              <p>Fast and reliable delivery.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">🔒</div>
+              <h3>Secure Payment</h3>
+              <p>Your information is protected.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">✓</div>
+              <h3>Genuine Products</h3>
+              <p>Only authentic products.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">↩</div>
+              <h3>Easy Returns</h3>
+              <p>Simple return policy.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="reviews container">
+          <div class="section-heading">
+            <span class="eyebrow accent">CUSTOMER REVIEWS</span>
+            <h2>What shoppers are saying</h2>
+          </div>
+
+          <div class="reviews-grid">
+            <article class="review-card">
+              <div class="review-top">
+                <img
+                  src="images/review-01.jpg"
+                  alt="Customer Mary"
+                />
+                <div>
+                  <h4>Mary S.</h4>
+                  <span>Verified Buyer</span>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p>"Excellent product and very fast delivery. The quality exceeded my expectations."</p>
+            </article>
+
+            <article class="review-card">
+              <div class="review-top">
+                <img
+                  src="images/review-02.jpg"
+                  alt="Customer Tanvir"
+                />
+                <div>
+                  <h4>Tanvir A.</h4>
+                  <span>Verified Buyer</span>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p>"The sound quality is amazing and the packaging was premium. Very satisfied."</p>
+            </article>
+
+            <article class="review-card">
+              <div class="review-top">
+                <img
+                  src="images/review-03.jpg"
+                  alt="Customer Nabila"
+                />
+                <div>
+                  <h4>Nabila K.</h4>
+                  <span>Verified Buyer</span>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p>"Smart Mart gave me the best deal on my new smartwatch. Smooth ordering experience."</p>
+            </article>
+
+            <article class="review-card">
+              <div class="review-top">
+                <img
+                  src="images/review-04.jpg"
+                  alt="Customer Arif"
+                />
+                <div>
+                  <h4>Arif H.</h4>
+                  <span>Verified Buyer</span>
+                </div>
+              </div>
+              <div class="stars">★★★★★</div>
+              <p>"Fast shipping, secure payment and premium products. Highly recommended."</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="newsletter container">
+          <div class="newsletter-inner">
+            <div class="newsletter-copy">
+              <span class="eyebrow accent">SMART DEALS</span>
+              <h2>Get Smart Deals First</h2>
+              <p>
+                Subscribe to receive new product announcements, special offers and exclusive deals.
+              </p>
+            </div>
+
+            <form class="newsletter-form" method="post">
+              <label class="sr-only" for="email">Email Address</label>
+              <input id="email" type="email" placeholder="Enter your email" />
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div class="footer-brand">
+            <div class="logo footer-logo">TOHA'S <span>MART</span></div>
+            <p>Premium smart gadgets, lifestyle tech, and everyday essentials.</p>
+            <p><strong>Email:</strong> tohasharif3@gmail.com</p>
+            <p><strong>Phone:</strong> +8801887730599</p>
+            <p><strong>Address:</strong> Boral Hall, Qadirabad Cantonment, Dayarampur, Natore-6431, Bangladesh</p>
+          </div>
+
+          <div>
+            <h4>SHOP</h4>
+            <ul>
+              <li><a href="#watch">Watches</a></li>
+              <li><a href="#smartphone">Smartphones</a></li>
+              <li><a href="#sound-box">Sound Box</a></li>
+              <li><a href="#headphone">Headphones</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>CUSTOMER SERVICE</h4>
+            <ul>
+              <li><a href="mailto:tohasharif3@gmail.com">Contact</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>FOLLOW US</h4>
+            <ul>
+              <li><a href="https://www.linkedin.com/in/tohasharif/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/tbs.toha.strange" target="_blank" rel="noreferrer">Facebook</a></li>
+              <li><a href="https://wa.me/8801887730599" target="_blank" rel="noreferrer">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <dialog class="search-dialog" id="product-search" aria-labelledby="search-title">
+      <div class="search-dialog-head">
+        <h2 id="search-title">Search products</h2>
+        <button class="search-close" type="button" id="search-close" aria-label="Close search">×</button>
+      </div>
+      <label class="sr-only" for="product-search-input">Product name, brand, or category</label>
+      <input id="product-search-input" type="search" placeholder="Search name, brand, or category" autocomplete="off" />
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+    </dialog>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+    <script src="commerce.js"></script>
+  </body>
+</html>

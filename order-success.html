@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Placed | TOHA'S MART</title>
+    <link rel="stylesheet" href="customer.css" />
+    <script src="order-details.js" defer></script>
+  </head>
+  <body>
+    <main class="customer-shell">
+      <header class="customer-topbar"><a class="customer-logo" href="/"><span>TOHA'S</span> MART</a><nav class="customer-nav"><a href="account.html">My account</a><a href="/">Continue shopping</a></nav></header>
+      <div class="customer-heading"><p>ORDER CONFIRMED</p><h1>Thank you for your order.</h1><small>Your cash-on-delivery order is being prepared.</small></div>
+      <div class="customer-grid">
+        <section class="customer-panel"><h2>Delivery</h2><div id="order-address" class="customer-message"></div><h2 style="margin-top:22px">Order status</h2><div id="order-timeline" class="customer-list"></div><section id="order-review-panel" hidden><h2 style="margin-top:22px">Review purchased products</h2><div id="order-reviews" class="customer-list"></div></section></section>
+        <section class="customer-panel"><h2 id="order-title">Order summary</h2><small id="order-date"></small><div class="shop-items" id="order-items"></div><div id="order-summary"></div><p class="customer-status" id="order-error" role="status"></p></section>
+      </div>
+    </main>
+  </body>
+</html>

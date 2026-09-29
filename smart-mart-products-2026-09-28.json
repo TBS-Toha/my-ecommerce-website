@@ -1,0 +1,960 @@
+[
+  {
+    "id": "watch-apple-series-10",
+    "category": "watch",
+    "brand": "APPLE",
+    "name": "Apple Watch Series 10",
+    "image": "images/category-01.jpg",
+    "altText": "Apple Watch Series 10",
+    "badge": "Best Seller",
+    "badgeType": "new",
+    "rating": 4.8,
+    "description": "Advanced smartwatch with a thin design, health features and seamless iPhone integration.",
+    "oldPrice": 69999,
+    "price": 59999,
+    "discount": 14,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "42mm"
+      },
+      {
+        "label": "Battery",
+        "value": "18h"
+      },
+      {
+        "label": "Water",
+        "value": "50m"
+      },
+      {
+        "label": "Connectivity",
+        "value": "GPS"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 42mm Retina OLED",
+      "Connectivity: GPS, Bluetooth 5.3",
+      "Compatibility: iPhone",
+      "Storage: 64GB",
+      "Features: ECG, sleep tracking, workout metrics"
+    ],
+    "featured": false,
+    "deal": true,
+    "dealOrder": 2,
+    "dealPrice": 59999,
+    "dealOldPrice": 79999,
+    "dealDiscount": 25,
+    "dealStockStatus": "limited",
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "watch-samsung-galaxy-watch7",
+    "category": "watch",
+    "brand": "SAMSUNG",
+    "name": "Samsung Galaxy Watch7",
+    "image": "images/watch-02.jpg",
+    "altText": "Samsung Galaxy Watch7",
+    "badge": "Hot Deal",
+    "badgeType": "hot",
+    "rating": 4.7,
+    "description": "Premium smartwatch with a bright display, health tracking and sleek wearable design.",
+    "oldPrice": 53999,
+    "price": 46999,
+    "discount": 13,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "40mm"
+      },
+      {
+        "label": "Battery",
+        "value": "40h"
+      },
+      {
+        "label": "Water",
+        "value": "50m"
+      },
+      {
+        "label": "Connectivity",
+        "value": "Bluetooth"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 1.3-inch AMOLED",
+      "Connectivity: Bluetooth 5.3, LTE optional",
+      "Compatibility: Android, iPhone",
+      "Features: sleep coach, body composition, health insights",
+      "Water resistance: 5 ATM"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "watch-google-pixel-watch-3",
+    "category": "watch",
+    "brand": "GOOGLE",
+    "name": "Google Pixel Watch 3",
+    "image": "images/watch-03.jpg",
+    "altText": "Google Pixel Watch 3",
+    "badge": "Limited",
+    "badgeType": "sale",
+    "rating": 4.8,
+    "description": "Elegant watch with wellness suite, assistant integration and smooth Android pairing.",
+    "oldPrice": 52999,
+    "price": 44999,
+    "discount": 15,
+    "stockStatus": "only-few",
+    "stockQuantity": 5,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "41mm"
+      },
+      {
+        "label": "Battery",
+        "value": "24h"
+      },
+      {
+        "label": "Water",
+        "value": "50m"
+      },
+      {
+        "label": "Connectivity",
+        "value": "Bluetooth"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 41mm AMOLED",
+      "Connectivity: Bluetooth, Wi-Fi",
+      "Compatibility: Android",
+      "Features: Google Assistant, Fitbit integration",
+      "Charging: USB-C fast charge"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "watch-garmin-venu-3",
+    "category": "watch",
+    "brand": "GARMIN",
+    "name": "Garmin Venu 3",
+    "image": "images/watch-04.jpg",
+    "altText": "Garmin Venu 3",
+    "badge": "Top Rated",
+    "badgeType": "new",
+    "rating": 4.9,
+    "description": "Performance-focused smartwatch for fitness, endurance and premium outdoor tracking.",
+    "oldPrice": 61999,
+    "price": 54999,
+    "discount": 11,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "45mm"
+      },
+      {
+        "label": "Battery",
+        "value": "14 days"
+      },
+      {
+        "label": "Water",
+        "value": "50m"
+      },
+      {
+        "label": "Connectivity",
+        "value": "GPS"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 1.4-inch AMOLED",
+      "Battery: up to 14 days",
+      "Connectivity: GPS, Bluetooth, Wi-Fi",
+      "Features: HR, pulse ox, fitness coach",
+      "Water resistance: 5 ATM"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "watch-huawei-gt-5",
+    "category": "watch",
+    "brand": "HUAWEI",
+    "name": "Huawei Watch GT 5",
+    "image": "images/watch-05.jpg",
+    "altText": "Huawei Watch GT 5",
+    "badge": "New Arrival",
+    "badgeType": "grey",
+    "rating": 4.6,
+    "description": "Stylish premium wearable pairing long battery life with refined everyday performance.",
+    "oldPrice": 41999,
+    "price": 36999,
+    "discount": 12,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "46mm"
+      },
+      {
+        "label": "Battery",
+        "value": "7 days"
+      },
+      {
+        "label": "Water",
+        "value": "50m"
+      },
+      {
+        "label": "Connectivity",
+        "value": "Bluetooth"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 1.5-inch AMOLED",
+      "Connectivity: Bluetooth 5.2",
+      "Compatibility: Android, iPhone",
+      "Features: health measurements, GPS, workout tracking",
+      "Battery: up to 7 days"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "phone-apple-iphone-16-pro",
+    "category": "smartphone",
+    "brand": "APPLE",
+    "name": "Apple iPhone 16 Pro",
+    "image": "images/smartphone-01.jpg",
+    "altText": "Apple iPhone 16 Pro",
+    "badge": "Flagship",
+    "badgeType": "new",
+    "rating": 4.9,
+    "description": "Premium flagship smartphone with titanium finish, pro camera and next-level performance.",
+    "oldPrice": 154999,
+    "price": 144999,
+    "discount": 6,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "6.3\""
+      },
+      {
+        "label": "Chip",
+        "value": "A18 Pro"
+      },
+      {
+        "label": "RAM",
+        "value": "8GB"
+      },
+      {
+        "label": "Storage",
+        "value": "256GB"
+      }
+    ],
+    "detailedFeatures": [
+      "Camera: 48MP Pro camera system",
+      "Battery: up to 23 hours video playback",
+      "OS: iOS 18",
+      "Network: 5G",
+      "Charging: USB-C, MagSafe"
+    ],
+    "featured": true,
+    "featuredBadge": "NEW",
+    "featuredImage": "images/featured-01.jpg",
+    "featuredDescription": "Experience pro-grade power, camera mastery and titanium elegance.",
+    "featuredPrice": 144999,
+    "featuredOldPrice": 154999,
+    "featuredSave": 7,
+    "deal": true,
+    "dealOrder": 1,
+    "dealPrice": 144999,
+    "dealOldPrice": 204999,
+    "dealDiscount": 30,
+    "dealStockStatus": "limited",
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "phone-samsung-galaxy-s25-ultra",
+    "category": "smartphone",
+    "brand": "SAMSUNG",
+    "name": "Samsung Galaxy S25 Ultra",
+    "image": "images/smartphone-02.jpg",
+    "altText": "Samsung Galaxy S25 Ultra",
+    "badge": "Popular",
+    "badgeType": "hot",
+    "rating": 4.9,
+    "description": "Premium flagship smartphone with a high-resolution display, advanced cameras and powerful performance.",
+    "oldPrice": 179999,
+    "price": 169999,
+    "discount": 6,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "6.9\""
+      },
+      {
+        "label": "Chip",
+        "value": "Snapdragon"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      },
+      {
+        "label": "Storage",
+        "value": "256GB"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 6.9\" AMOLED",
+      "Camera: 200MP main",
+      "Battery: 5000mAh",
+      "Network: 5G",
+      "OS: Android 15"
+    ],
+    "featured": true,
+    "featuredBadge": "HOT",
+    "featuredImage": "images/smartphone-02.jpg",
+    "featuredDescription": "AI-powered flagship with pro-grade photography and immersive display.",
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "phone-google-pixel-9-pro",
+    "category": "smartphone",
+    "brand": "GOOGLE",
+    "name": "Google Pixel 9 Pro",
+    "image": "images/smartphone-03.jpg",
+    "altText": "Google Pixel 9 Pro",
+    "badge": "Limited",
+    "badgeType": "sale",
+    "rating": 4.8,
+    "description": "AI-powered camera system, clean Android experience and premium craftsmanship.",
+    "oldPrice": 109999,
+    "price": 99999,
+    "discount": 9,
+    "stockStatus": "only-few",
+    "stockQuantity": 5,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "6.3\""
+      },
+      {
+        "label": "Chip",
+        "value": "Tensor G4"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      },
+      {
+        "label": "Storage",
+        "value": "128GB"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 6.3-inch LTPO OLED",
+      "Camera: 50MP main + telephoto",
+      "Battery: 5050mAh",
+      "Network: 5G",
+      "OS: Android"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "phone-oneplus-13",
+    "category": "smartphone",
+    "brand": "ONEPLUS",
+    "name": "OnePlus 13",
+    "image": "images/smartphone-04.jpg",
+    "altText": "OnePlus 13",
+    "badge": "Performance",
+    "badgeType": "new",
+    "rating": 4.8,
+    "description": "High-speed flagship with powerful chipset, fluid display and all-day battery endurance.",
+    "oldPrice": 94999,
+    "price": 86999,
+    "discount": 8,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "6.8\""
+      },
+      {
+        "label": "Chip",
+        "value": "Snapdragon 8"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      },
+      {
+        "label": "Storage",
+        "value": "256GB"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 6.8-inch QHD AMOLED",
+      "Chipset: Snapdragon 8 Gen 3",
+      "Camera: 50MP triple camera",
+      "Battery: 5500mAh",
+      "Network: 5G"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "phone-xiaomi-15-ultra",
+    "category": "smartphone",
+    "brand": "XIAOMI",
+    "name": "Xiaomi 15 Ultra",
+    "image": "images/smartphone-05.jpg",
+    "altText": "Xiaomi 15 Ultra",
+    "badge": "New Arrival",
+    "badgeType": "grey",
+    "rating": 4.7,
+    "description": "Premium imaging flagship with exceptional camera hardware and ultra-fast charging.",
+    "oldPrice": 128999,
+    "price": 119999,
+    "discount": 7,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Display",
+        "value": "6.7\""
+      },
+      {
+        "label": "Chip",
+        "value": "Snapdragon"
+      },
+      {
+        "label": "RAM",
+        "value": "12GB"
+      },
+      {
+        "label": "Storage",
+        "value": "512GB"
+      }
+    ],
+    "detailedFeatures": [
+      "Display: 6.7-inch LTPO AMOLED",
+      "Camera: Leica quad camera system",
+      "Battery: 5300mAh",
+      "Network: 5G",
+      "Charging: 90W HyperCharge"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "sound-jbl-charge-5",
+    "category": "sound-box",
+    "brand": "JBL",
+    "name": "JBL Charge 5",
+    "image": "images/soundbox-01.jpg",
+    "altText": "JBL Charge 5",
+    "badge": "Best Value",
+    "badgeType": "new",
+    "rating": 4.8,
+    "description": "Portable Bluetooth speaker with powerful sound, long battery life and water resistance.",
+    "oldPrice": 24999,
+    "price": 19999,
+    "discount": 20,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Output",
+        "value": "30W"
+      },
+      {
+        "label": "Battery",
+        "value": "20h"
+      },
+      {
+        "label": "Waterproof",
+        "value": "IP67"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Power: 30W",
+      "Battery: up to 20 hours",
+      "Water/Dust Resistance: IP67",
+      "Charging: USB-C",
+      "Connectivity: Bluetooth"
+    ],
+    "featured": true,
+    "featuredBadge": "BEST",
+    "featuredImage": "images/soundbox-01.jpg",
+    "featuredDescription": "Portable sound with deep bass and adventure-ready durability.",
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "sound-jbl-xtreme-4",
+    "category": "sound-box",
+    "brand": "JBL",
+    "name": "JBL Xtreme 4",
+    "image": "images/soundbox-02.jpg",
+    "altText": "JBL Xtreme 4",
+    "badge": "Premium",
+    "badgeType": "hot",
+    "rating": 4.8,
+    "description": "Powerful portable speaker designed for dynamic sound and outdoor entertainment.",
+    "oldPrice": 37999,
+    "price": 31999,
+    "discount": 16,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Output",
+        "value": "100W"
+      },
+      {
+        "label": "Battery",
+        "value": "15h"
+      },
+      {
+        "label": "Waterproof",
+        "value": "IP67"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Power: 100W",
+      "Battery: up to 15 hours",
+      "Water resistance: IP67",
+      "Connectivity: Bluetooth, USB-A",
+      "Weight: 1.9 kg"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "sound-sony-ult-field-7",
+    "category": "sound-box",
+    "brand": "SONY",
+    "name": "Sony ULT FIELD 7",
+    "image": "images/soundbox-02.jpg",
+    "altText": "Sony ULT FIELD 7",
+    "badge": "Limited",
+    "badgeType": "sale",
+    "rating": 4.9,
+    "description": "Extra bass speaker built for outdoor power, rugged use and long playback sessions.",
+    "oldPrice": 42999,
+    "price": 38999,
+    "discount": 9,
+    "stockStatus": "only-few",
+    "stockQuantity": 5,
+    "specifications": [
+      {
+        "label": "Output",
+        "value": "60W"
+      },
+      {
+        "label": "Battery",
+        "value": "30h"
+      },
+      {
+        "label": "Waterproof",
+        "value": "IP67"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Power: 60W",
+      "Battery: up to 30 hours",
+      "Water/Dust Resistance: IP67",
+      "Connectivity: Bluetooth, USB-C",
+      "Features: ULT bass boost"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "sound-bose-soundlink-max",
+    "category": "sound-box",
+    "brand": "BOSE",
+    "name": "Bose SoundLink Max",
+    "image": "images/soundbox-04.jpg",
+    "altText": "Bose SoundLink Max",
+    "badge": "Top Pick",
+    "badgeType": "new",
+    "rating": 4.9,
+    "description": "Portable Bluetooth speaker with bold audio, sleek design and premium sound tuning.",
+    "oldPrice": 39999,
+    "price": 34999,
+    "discount": 12,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Output",
+        "value": "40W"
+      },
+      {
+        "label": "Battery",
+        "value": "20h"
+      },
+      {
+        "label": "Waterproof",
+        "value": "IP67"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Power: 40W",
+      "Battery: up to 20 hours",
+      "Weight: 2.05 kg",
+      "Water resistance: IP67",
+      "Connectivity: Bluetooth 5.3"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "sound-marshall-emberton-iii",
+    "category": "sound-box",
+    "brand": "MARSHALL",
+    "name": "Marshall Emberton III",
+    "image": "images/soundbox-05.jpg",
+    "altText": "Marshall Emberton III",
+    "badge": "Limited",
+    "badgeType": "grey",
+    "rating": 4.7,
+    "description": "Stylish Bluetooth speaker with punchy volume, durable build and rich acoustic profile.",
+    "oldPrice": 23999,
+    "price": 18999,
+    "discount": 21,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Output",
+        "value": "20W"
+      },
+      {
+        "label": "Battery",
+        "value": "30h"
+      },
+      {
+        "label": "Waterproof",
+        "value": "IP67"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Power: 20W",
+      "Battery: 30 hours",
+      "Water/Dust Resistance: IP67",
+      "Connectivity: Bluetooth 5.3",
+      "Dimensions: compact portable design"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "headphone-sony-wh-1000xm5",
+    "category": "headphone",
+    "brand": "SONY",
+    "name": "Sony WH-1000XM5",
+    "image": "images/soundbox-02.jpg",
+    "altText": "Sony WH-1000XM5",
+    "badge": "Top Rated",
+    "badgeType": "new",
+    "rating": 4.9,
+    "description": "Premium wireless noise-cancelling headphones designed for immersive sound and all-day comfort.",
+    "oldPrice": 49999,
+    "price": 39999,
+    "discount": 20,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Over-ear"
+      },
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Battery",
+        "value": "30h"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.2"
+      }
+    ],
+    "detailedFeatures": [
+      "Driver: 30mm",
+      "ANC: Yes",
+      "Battery: up to 30 hours",
+      "Charging: USB-C",
+      "Microphone: Built-in"
+    ],
+    "featured": true,
+    "featuredBadge": "TOP",
+    "featuredImage": "images/soundbox-02.jpg",
+    "featuredDescription": "Noise cancellation and premium sound for immersive listening.",
+    "deal": true,
+    "dealOrder": 4,
+    "dealPrice": 39999,
+    "dealOldPrice": 51499,
+    "dealDiscount": 22,
+    "dealStockStatus": "limited",
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "headphone-bose-quietcomfort-ultra",
+    "category": "headphone",
+    "brand": "BOSE",
+    "name": "Bose QuietComfort Ultra Headphones",
+    "image": "images/soundbox-02.jpg",
+    "altText": "Bose QuietComfort Ultra Headphones",
+    "badge": "Premium",
+    "badgeType": "hot",
+    "rating": 4.9,
+    "description": "Ultra-comfort wireless headphones tuned for deep immersion and calm focus.",
+    "oldPrice": 52999,
+    "price": 46999,
+    "discount": 11,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Over-ear"
+      },
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Battery",
+        "value": "24h"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Type: Over-ear",
+      "ANC: Yes",
+      "Battery: up to 24 hours",
+      "Charging: USB-C",
+      "Microphone: Built-in beamforming"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "headphone-apple-airpods-max",
+    "category": "headphone",
+    "brand": "APPLE",
+    "name": "Apple AirPods Max",
+    "image": "images/headphone-03.jpg",
+    "altText": "Apple AirPods Max",
+    "badge": "Hot",
+    "badgeType": "sale",
+    "rating": 4.9,
+    "description": "Luxury over-ear headphones with spatial audio, premium comfort and exceptional noise cancellation.",
+    "oldPrice": 64999,
+    "price": 56999,
+    "discount": 12,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Over-ear"
+      },
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Battery",
+        "value": "20h"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.0"
+      }
+    ],
+    "detailedFeatures": [
+      "Type: Over-ear",
+      "ANC: Yes",
+      "Battery: up to 20 hours",
+      "Connectivity: Bluetooth, USB-C",
+      "Features: Spatial Audio"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "headphone-sennheiser-momentum-4",
+    "category": "headphone",
+    "brand": "SENNHEISER",
+    "name": "Sennheiser Momentum 4 Wireless",
+    "image": "images/category-04.jpg",
+    "altText": "Sennheiser Momentum 4 Wireless",
+    "badge": "Audio Pro",
+    "badgeType": "new",
+    "rating": 4.8,
+    "description": "Exceptional sound signature with deep clarity, intelligent noise cancellation and long battery life.",
+    "oldPrice": 44999,
+    "price": 38999,
+    "discount": 13,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Over-ear"
+      },
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Battery",
+        "value": "60h"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.2"
+      }
+    ],
+    "detailedFeatures": [
+      "Driver: 42mm",
+      "ANC: Yes",
+      "Battery: up to 60 hours",
+      "Charging: USB-C",
+      "Microphone: Built-in"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "headphone-jbl-tour-one-m3",
+    "category": "headphone",
+    "brand": "JBL",
+    "name": "JBL Tour One M3",
+    "image": "images/soundbox-02.jpg",
+    "altText": "JBL Tour One M3",
+    "badge": "Travel",
+    "badgeType": "grey",
+    "rating": 4.7,
+    "description": "Comfortable wireless over-ear headphones built for travel, work and immersive listening.",
+    "oldPrice": 36999,
+    "price": 29999,
+    "discount": 19,
+    "stockStatus": "in-stock",
+    "stockQuantity": null,
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Over-ear"
+      },
+      {
+        "label": "ANC",
+        "value": "Yes"
+      },
+      {
+        "label": "Battery",
+        "value": "40h"
+      },
+      {
+        "label": "Bluetooth",
+        "value": "5.3"
+      }
+    ],
+    "detailedFeatures": [
+      "Type: Over-ear",
+      "ANC: Yes",
+      "Battery: up to 40 hours",
+      "Charging: USB-C",
+      "Microphone: Built-in noise reduction"
+    ],
+    "featured": false,
+    "deal": false,
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": "deal-apple-airpods-pro-2",
+    "category": "headphone",
+    "brand": "APPLE",
+    "name": "Apple AirPods Pro 2",
+    "image": "images/soundbox-02.jpg",
+    "altText": "Earbuds deal",
+    "badge": "",
+    "badgeType": "hot",
+    "rating": null,
+    "description": "",
+    "oldPrice": 30499,
+    "price": 24999,
+    "discount": 18,
+    "stockStatus": "limited",
+    "stockQuantity": null,
+    "specifications": [],
+    "detailedFeatures": [],
+    "featured": false,
+    "deal": true,
+    "dealOrder": 3,
+    "dealPrice": 24999,
+    "dealOldPrice": 30499,
+    "dealDiscount": 18,
+    "dealStockStatus": "limited",
+    "catalogVisible": false,
+    "createdAt": "2026-09-29"
+  }
+]
